@@ -1,0 +1,25 @@
+body{
+    background-image: url(https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/09/executium-9pCV2MB65y8-unsplash.jpg?w=876&h=484&crop=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media screen and (max-width: 1000px) {
+    .stack{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:768px) {
+    .col-md-2{
+        display: block;
+        text-align: center;
+    }
+}
+.card{
+    margin-left: auto;
+    margin-right: auto;
+}
+.col-md-2{
+    margin-right: auto;
+    margin-left: auto;
+}
